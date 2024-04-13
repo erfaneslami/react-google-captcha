@@ -1,0 +1,51 @@
+.App {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #eeeeee;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  /* display: block; */
+  /* width: 200px; */
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+button:after{
+  position: absolute;
+  opacity: .2;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #9c9c9c;
+  transition: all .35s;
+}
+
+button:hover{
+  color: rgb(0, 0, 0);
+}
+
+button:hover:after{
+  width: 100%;
+}
+
+
+
+Resources

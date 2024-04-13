@@ -1,0 +1,20 @@
+{
+  "name": "react-google-recaptcha-210-example-invisible",
+  "version": "1.0.0",
+  "description": "react-google-recaptcha 2.1.0 example invisible",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-google-recaptcha": "2.1.0",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
